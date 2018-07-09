@@ -19,7 +19,7 @@ if(unit==1):
 elif(unit==2):
   imp_weight=int(input("input your weight (lbs) "))
   imp_height=float(input("input your height  (in) "))
-  BMI=(imp_weight/imp_height**2)703
+  BMI=(imp_weight/imp_height**2)*703
   print("Your BMI is:",round(BMI,1))
   
 if(BMI<18.5):
